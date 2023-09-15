@@ -1,0 +1,15 @@
+.slot {
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slot.booked {
+    background-color: #f2f2f2;
+}
+
+.slot.selected {
+    background-color: #007bff;
+    color: #fff;
+}
